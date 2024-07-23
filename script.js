@@ -53,6 +53,7 @@ const operate = (first, oper, second) => {
     return formatNumber(result !== null ? parseFloat(result.toFixed(2)) : result);
 };
 
+// IT WILL CONVERT THE RESULT TO SCIENTIFIC NOTATION IF THE RESULT IS TO BIG
 const formatNumber = (number) => {
     if (number === null) return null;
 
