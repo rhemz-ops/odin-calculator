@@ -26,13 +26,16 @@ body {
 }
 
 #display {
+    display: flex;
+    align-items: center;
+    justify-content: end;
     background-color: rgba(255, 255, 255, 0.35);
     border: none;
-    min-height: 48px;
-    padding: 8px;
+    min-height: 65px;
+    padding-right: 8px;
     font-size: 32px;
     text-align: right;
-    font-weight: 400;
+    font-weight: 900;
     margin-inline: 4px;
     max-width: 304px;
 }
@@ -73,15 +76,15 @@ body {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-.rows .operator {
+.rows .blue {
     background-color: #0094e970;
 }
 
-.rows .operator:hover {
+.rows .blue:hover {
     background-color: #0094e9ad;
 }
 
-.rows .operator:active {
+.rows .blue:active {
     background-color: #0094e9de;
 }
 
